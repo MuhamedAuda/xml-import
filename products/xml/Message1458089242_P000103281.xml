@@ -1,0 +1,67 @@
+<doc xmlns="http://agility-software.com/2013/xsd/namespace" id="0001032458" name="product" action="C">
+    <product>
+        <key>WDR0750440</key>
+        <name>Test B2021</name>
+        <description>(3x2) White Deal Rough K/d 75mm X 44mm</description>
+        <supplier>GLT1</supplier>
+        <suppliercode>D3R</suppliercode>
+        <department key="DEFAUL">Standard Grange Stock Downstairs</department>
+        <analysis>
+            <anal name="PRICECHECK"/>
+            <anal name="PRODUCT NUMBER"/>
+            <anal name="PAUL STOCK"/>
+            <anal name="Season"/>
+            <anal name="Matrix X"/>
+            <anal name="Matrix Y"/>
+            <anal name="Matrix Z"/>
+            <anal name="Length in cm"/>
+            <anal name="Width in cm"/>
+            <anal name="Height in cm"/>
+            <anal name="Not Used"/>
+        </analysis>
+        <vat>
+            <rate>R1</rate>
+            <percentage>21.00</percentage>
+        </vat>
+        <unit>
+            <name>CMTRS</name>
+            <size>1.0000</size>
+            <barcode>
+                <gtin>WDR075044</gtin>
+            </barcode>
+        </unit>
+
+        <timber>
+            <length>
+                <name>3.0000</name>
+                <price>16.7107</price>
+            </length>
+            <length>
+                <name>3.6000</name>
+                <price>20.0528</price>
+            </length>
+            <length>
+                <name>4.2000</name>
+                <price>23.3950</price>
+            </length>
+            <length>
+                <name>4.8000</name>
+                <price>26.7371</price>
+            </length>
+            <length>
+                <name>2.4000</name>
+                <price>102.99</price>
+            </length>
+        </timber>
+
+        <weight>0.0000</weight>
+        <available>55.18</available>
+        <comparative>
+            <unit>Item(s)</unit>
+            <amount>1687.95</amount>
+        </comparative>
+        <price type="D">1687.95</price>
+        <image>https://brooksonline.ie/media/catalog/product/cache/69f41efcfd3bbf8fe2af1e78049e1bfc/S/W/SWN044225_2.jpg</image>
+    </product>
+
+</doc>

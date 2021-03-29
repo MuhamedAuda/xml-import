@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+    <id>XML files import</id>
+    <name>XML files import</name>
+    <code>universal_xml_feed_import</code>
+    <version>1</version>
+    <vqmver>2.5.1</vqmver>
+    <author>bassmacart.com</author>
+    <link>bassmacart.com</link>
+    <file path="admin/controller/common/column_left.php" error="skip" v="3">
+        <operation error="skip">
+            <search position="before"><![CDATA[if ($maintenance) {]]></search>
+            <add position="before"><![CDATA[
+			if ($this->user->hasPermission('access', 'tool/timber')) {
+				$maintenance[] = array(
+					'name'	   => 'XMLs Import',
+					'href'     => $this->url->link('tool/timber', 'user_token=' . $this->session->data['user_token'], true),
+					'children' => array()
+				);
+			}
+      ]]></add>
+        </operation>
+    </file>
+</modification>
